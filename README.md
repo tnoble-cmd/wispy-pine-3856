@@ -2,9 +2,9 @@
 
 ### Versions
 
-Ruby 2.7.4
+Ruby 3.2.2
 
-Rails 5.2.8
+Rails 7.0.x
 
 ### Setup
 
@@ -28,6 +28,8 @@ Notes:
   * Running the app and visiting the home page will show an error - THIS IS INTENTIONAL
   * Make sure you read the story closely, each portion must be completed correctly in order for it to be considered passing.
 
+### User Story
+
 ```
 As a user,
 When I visit "/"
@@ -48,4 +50,6 @@ And for each of the foods I should see:
 
 Note: You can consider every result you get from the FoodData API to be a valid result for your search even if the ingredient list for the food is empty.
 
-Delivery: Create a pull request with your name in the title. Submit your PR link to the form provided by your instructor
+
+### Submission
+When time is called, create a pull request with your name in the title. Submit your PR link to the form provided by your instructor.
