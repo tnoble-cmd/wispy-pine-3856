@@ -4,13 +4,12 @@
 
 Ruby 3.2.2
 
-Rails 7.0.x
+Rails 7.1.2
 
 ### Setup
 
 - Fork and Clone this repo
 - `bundle install`
-- `bundle exec figaro install`
 - `rails db:{create,migrate}`
 - `rails s`
 
