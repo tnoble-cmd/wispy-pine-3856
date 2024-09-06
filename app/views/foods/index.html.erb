@@ -1,0 +1,14 @@
+<h1>Results for <%= @query %>
+
+<% if @foods.empty? %>
+  <p>No results found.</p>
+<% else %>
+    <ul>
+        <% @foods.each do |food| %>
+        <li>GTIN/UPC: <%= food.gtinUpc %></li>
+        <li>Description: <%= food.description %></li>
+        <li>Brand Owner: <%= food.brandOwner %></li>
+        <li>Ingredients: <%= food.ingredients %></li>
+        <% end %>
+    </ul>
+<%end%>
